@@ -50,6 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/iminseo/Desktop/JAVA/advanced/section4~/build.gradle",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "d45c5a0af6a6a95c27f550fbebe745e2"
   }
 }]]></component>
@@ -58,11 +59,14 @@
       <recent name="$PROJECT_DIR$/src/main/java/inflearn/advanced" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="inflearn.advanced.config.v2_dynamicproxy" />
+      <recent name="inflearn.advanced.config.v2_dynamicproxy.handler" />
+      <recent name="inflearn.advanced.jdkdynamic.code" />
       <recent name="inflearn.advanced" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProxyApplication">
-    <configuration name="ConcreteProxyTest.addProxy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CglibTest.cglib">
+    <configuration name="CglibTest.cglib" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -75,7 +79,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;inflearn.advanced.pureproxy.concreteproxy.ConcreteProxyTest.addProxy&quot;" />
+            <option value="&quot;inflearn.advanced.cglib.CglibTest.cglib&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -85,7 +89,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ConcreteProxyTest.noProxy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JdkDynamicProxyTest.dynamicA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -98,7 +102,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;inflearn.advanced.pureproxy.concreteproxy.ConcreteProxyTest.noProxy&quot;" />
+            <option value="&quot;inflearn.advanced.jdkdynamic.JdkDynamicProxyTest.dynamicA&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -108,7 +112,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DecoratorPatternTest.decorator1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JdkDynamicProxyTest.dynamicB" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -121,7 +125,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;inflearn.advanced.pureproxy.decorator.DecoratorPatternTest.decorator1&quot;" />
+            <option value="&quot;inflearn.advanced.jdkdynamic.JdkDynamicProxyTest.dynamicB&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -131,7 +135,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DecoratorPatternTest.decorator2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ReflectionTest.reflection1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -144,7 +148,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;inflearn.advanced.pureproxy.decorator.DecoratorPatternTest.decorator2&quot;" />
+            <option value="&quot;inflearn.advanced.jdkdynamic.ReflectionTest.reflection1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -154,7 +158,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DecoratorPatternTest.noDecorator" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ReflectionTest.reflection2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -167,7 +171,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;inflearn.advanced.pureproxy.decorator.DecoratorPatternTest.noDecorator&quot;" />
+            <option value="&quot;inflearn.advanced.jdkdynamic.ReflectionTest.reflection2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ConcreteProxyTest.addProxy" />
-        <item itemvalue="Gradle.ConcreteProxyTest.noProxy" />
-        <item itemvalue="Gradle.DecoratorPatternTest.decorator2" />
-        <item itemvalue="Gradle.DecoratorPatternTest.decorator1" />
-        <item itemvalue="Gradle.DecoratorPatternTest.noDecorator" />
+        <item itemvalue="Gradle.CglibTest.cglib" />
+        <item itemvalue="Gradle.JdkDynamicProxyTest.dynamicB" />
+        <item itemvalue="Gradle.JdkDynamicProxyTest.dynamicA" />
+        <item itemvalue="Gradle.ReflectionTest.reflection2" />
+        <item itemvalue="Gradle.ReflectionTest.reflection1" />
       </list>
     </recent_temporary>
   </component>
@@ -203,11 +207,17 @@
       <option name="presentableId" value="Default" />
       <updated>1696748679293</updated>
       <workItem from="1696748680370" duration="1526000" />
-      <workItem from="1696831878588" duration="8698000" />
+      <workItem from="1696831878588" duration="9167000" />
+      <workItem from="1697864122493" duration="105000" />
+      <workItem from="1697864385870" duration="5880000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

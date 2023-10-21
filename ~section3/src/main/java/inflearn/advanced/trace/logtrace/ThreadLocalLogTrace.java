@@ -11,11 +11,11 @@ public class ThreadLocalLogTrace implements LogTrace{
     private static final String EX_PREFIX = "<X-";
 
 //    private TraceId traceIdHolder; // traceId 동기화, 동시성 이슈 발생
-    private ThreadLocal<TraceId > traceIdHolder = new ThreadLocal<>();
+    private ThreadLocal<TraceId> traceIdHolder = new ThreadLocal<>();
     private void traceIdSync() {
         TraceId traceId = traceIdHolder.get();
          if (traceId == null) {
-              traceIdHolder.set(new TraceId() );
+              traceIdHolder.set(new TraceId());
          } else {
              traceIdHolder.set(traceId .createNextId());
          }

@@ -4,6 +4,8 @@ import inflearn.advanced.config.AppV1Config;
 import inflearn.advanced.config.AppV2Config;
 import inflearn.advanced.config.v1_proxy.ConcreteProxyConfig;
 import inflearn.advanced.config.v1_proxy.InterfaceProxyConfig;
+import inflearn.advanced.config.v2_dynamicproxy.DynamicProxyBasicConfig;
+import inflearn.advanced.config.v2_dynamicproxy.DynamicProxyFilterConfig;
 import inflearn.advanced.trace.logtrace.LogTrace;
 import inflearn.advanced.trace.logtrace.ThreadLocalLogTrace;
 import org.springframework.boot.SpringApplication;
@@ -21,7 +23,9 @@ import org.springframework.context.annotation.Import;
 //@Import(AppV1Config.class)
 //@Import({AppV1Config.class, AppV2Config .class})
 //@Import(InterfaceProxyConfig.class)
-@Import(ConcreteProxyConfig.class)
+//@Import(ConcreteProxyConfig.class)
+//@Import(DynamicProxyBasicConfig.class)
+@Import(DynamicProxyFilterConfig.class)
 
 @SpringBootApplication(scanBasePackages = "inflearn.advanced.app")
 

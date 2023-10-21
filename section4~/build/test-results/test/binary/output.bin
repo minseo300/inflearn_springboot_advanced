@@ -1,3 +1,2 @@
-p17:24:10.024 [Test worker] INFO inflearn.advanced.pureproxy.concreteproxy.code.TimeProxy - TimeDecorator 실행
-t17:24:10.033 [Test worker] INFO inflearn.advanced.pureproxy.concreteproxy.code.ConcreteLogic - ConcreteLogic 실행
-�17:24:10.034 [Test worker] INFO inflearn.advanced.pureproxy.concreteproxy.code.TimeProxy - TimeDecorator 종료 resultTime = 1ms
+�15:33:57.252 [Test worker] INFO inflearn.advanced.cglib.CglibTest - target class= class inflearn.advanced.common.service.ConcreteService
+�15:33:57.259 [Test worker] INFO inflearn.advanced.cglib.CglibTest - proxy class = class inflearn.advanced.common.service.ConcreteService$$EnhancerByCGLIB$$1015f9f2
