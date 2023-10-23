@@ -40,34 +40,34 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/iminseo/Desktop/JAVA/advanced/section4~/build.gradle",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "d45c5a0af6a6a95c27f550fbebe745e2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/iminseo/Desktop/JAVA/advanced/section4~/build.gradle&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d45c5a0af6a6a95c27f550fbebe745e2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/inflearn/advanced" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="inflearn.advanced.postprocessor" />
       <recent name="inflearn.advanced.config.v3_proxyfactory" />
       <recent name="inflearn.advanced.config.v2_dynamicproxy" />
       <recent name="inflearn.advanced.config.v2_dynamicproxy.handler" />
       <recent name="inflearn.advanced.jdkdynamic.code" />
-      <recent name="inflearn.advanced" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ProxyApplication">
-    <configuration name="AdvisorTest.advisorTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BasicTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -80,7 +80,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;inflearn.advanced.advisor.AdvisorTest.advisorTest1&quot;" />
+            <option value="&quot;inflearn.advanced.postprocessor.BasicTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -90,7 +90,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AdvisorTest.advisorTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BasicTest.basicConfig" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -103,7 +103,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;inflearn.advanced.advisor.AdvisorTest.advisorTest2&quot;" />
+            <option value="&quot;inflearn.advanced.postprocessor.BasicTest.basicConfig&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -113,7 +113,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AdvisorTest.advisorTest3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BeanPostProcessorTest.basicConfig" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -126,7 +126,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;inflearn.advanced.advisor.AdvisorTest.advisorTest3&quot;" />
+            <option value="&quot;inflearn.advanced.postprocessor.BeanPostProcessorTest.basicConfig&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -191,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BeanPostProcessorTest.basicConfig" />
+        <item itemvalue="Gradle.BasicTest.basicConfig" />
+        <item itemvalue="Gradle.BasicTest" />
         <item itemvalue="Gradle.MultiAdvisorTest.multiAdvisorTest2" />
         <item itemvalue="Gradle.MultiAdvisorTest.multiAdvisorTest1" />
-        <item itemvalue="Gradle.AdvisorTest.advisorTest3" />
-        <item itemvalue="Gradle.AdvisorTest.advisorTest2" />
-        <item itemvalue="Gradle.AdvisorTest.advisorTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +210,8 @@
       <workItem from="1696748680370" duration="1526000" />
       <workItem from="1696831878588" duration="9167000" />
       <workItem from="1697864122493" duration="105000" />
-      <workItem from="1697864385870" duration="12604000" />
+      <workItem from="1697864385870" duration="13205000" />
+      <workItem from="1698060944795" duration="3722000" />
     </task>
     <servers />
   </component>

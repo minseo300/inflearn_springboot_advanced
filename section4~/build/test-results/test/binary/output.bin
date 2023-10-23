@@ -1,3 +1,12 @@
-d14:57:09.078 [Test worker] INFO inflearn.advanced.advisor.MultiAdvisorTest$Advice2 - Advice2 Ìò∏Ï∂ú
-d14:57:09.089 [Test worker] INFO inflearn.advanced.advisor.MultiAdvisorTest$Advice1 - Advice1 Ìò∏Ï∂ú
-[14:57:09.090 [Test worker] INFO inflearn.advanced.common.service.ServiceImpl - save Ìò∏Ï∂ú
+À20:56:55.880 [Test worker] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@25bfcafd
+Â20:56:55.910 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+÷20:56:56.074 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+‘20:56:56.079 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+·20:56:56.082 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+ﬁ20:56:56.084 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+®20:56:56.089 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'helloPostProcessor'
+√20:56:56.091 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'beanPostProcessorTest.BeanPostProcessorConfig'
+ù20:56:56.096 [Test worker] INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'beanPostProcessorTest.BeanPostProcessorConfig' of type [inflearn.advanced.postprocessor.BeanPostProcessorTest$BeanPostProcessorConfig$$EnhancerBySpringCGLIB$$afe4d7f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+õ20:56:56.140 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'beanA'
+ª20:56:56.141 [Test worker] INFO inflearn.advanced.postprocessor.BeanPostProcessorTest$AToBProcessor - beanName=beanA bean=inflearn.advanced.postprocessor.BeanPostProcessorTest$A@4fdfa676
+b20:56:56.246 [Test worker] INFO inflearn.advanced.postprocessor.BeanPostProcessorTest$B - hello B
