@@ -10,8 +10,10 @@ import inflearn.advanced.config.v3_proxyfactory.ProxyFactoryConfigV1;
 import inflearn.advanced.config.v3_proxyfactory.ProxyFactoryConfigV2;
 import inflearn.advanced.config.v4_postprocessor.BeanPostProcessorConfig;
 import inflearn.advanced.config.v5_autoproxy.AutoProxyConfig;
+import inflearn.advanced.config.v6_aop.AopConfig;
 import inflearn.advanced.trace.logtrace.LogTrace;
 import inflearn.advanced.trace.logtrace.ThreadLocalLogTrace;
+import org.springframework.aop.framework.AopProxy;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -34,7 +36,9 @@ import org.springframework.context.annotation.Import;
 //@Import(ProxyFactoryConfigV2.class)
 
 //@Import(BeanPostProcessorConfig.class)
-@Import(AutoProxyConfig.class)
+//@Import(AutoProxyConfig.class)
+
+@Import(AopConfig.class)
 
 @SpringBootApplication(scanBasePackages = "inflearn.advanced.app")
 
